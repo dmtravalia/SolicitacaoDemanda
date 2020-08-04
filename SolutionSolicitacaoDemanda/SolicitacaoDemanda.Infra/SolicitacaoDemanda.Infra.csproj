@@ -4,4 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SolicitacaoDemanda.Domain.Core\SolicitacaoDemanda.Domain.Core.csproj" />
+    <ProjectReference Include="..\SolicitacaoDemanda.Domain\SolicitacaoDemanda.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Context\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
 </Project>

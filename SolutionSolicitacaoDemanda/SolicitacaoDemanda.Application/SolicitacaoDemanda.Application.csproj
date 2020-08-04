@@ -4,4 +4,17 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SolicitacaoDemanda.Domain\SolicitacaoDemanda.Domain.csproj" />
+    <ProjectReference Include="..\SolicitacaoDemanda.Infra\SolicitacaoDemanda.Infra.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="Services\" />
+    <Folder Include="Validators\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+
 </Project>
